@@ -2,6 +2,7 @@
   position: fixed;
   width: 100%;
   transition: background-color 1s;
+  z-index: 1;
 }
 
 .rect {
@@ -10,7 +11,22 @@
 }
 #imagi{
   border-radius: 0px 40px 40px 40px;
+  position: absolute;
 }
+#salamon{
+  background-color: #F2D9D3;
+  height: 129px;
+  width: 102px;
+  border-radius: 0px 30px 30px 30px;
+  position: absolute;
+  z-index: 0;
+  left: 203px;
+  bottom: -1175px;
+
+}
+/* #part1{
+  padding: 20px;
+} */
 
 #green {
   /* background-color: #559065; */
@@ -21,4 +37,6 @@
 
 #blue {
   background-color: #7eb3a7;
+  display: flex;
+  padding: 50px;
 }
