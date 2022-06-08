@@ -12,17 +12,23 @@
 #imagi{
   border-radius: 0px 40px 40px 40px;
   position: absolute;
+  right: 74px;
 }
 #salamon{
   background-color: #F2D9D3;
-  height: 129px;
-  width: 102px;
+  height: 141px;
+  width: 116px;
   border-radius: 0px 30px 30px 30px;
   position: absolute;
   z-index: 0;
-  left: 203px;
-  bottom: -1175px;
-
+  left: 1090px;
+  bottom: -515px;
+}
+#readmore{
+  background-color: #250101;
+  color: white;
+  height: 40px;
+  width: 200px;
 }
 /* #part1{
   padding: 20px;
