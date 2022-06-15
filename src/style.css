@@ -94,7 +94,7 @@ main {
   border: 1px;
   color: #fff;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 20px;
 }
 #main-2 {
   width: 90%;
@@ -107,8 +107,8 @@ main {
   flex-direction: column;
   justify-content: left;
   background-color: #FFF6F4;
-  width: 200px;
-  height: 200px;
+  width: 308px;
+  height: 322px;
   margin: 3px;
 }
 #main-2>div>img {
@@ -121,4 +121,117 @@ main {
   margin: 0px;
   padding: 0;
 }
+#meet-our-team {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#team {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#meet-our-team>input {
+  background-color: #250101;
+  height: 100px;
+  width: 300px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+#meet-our-team>h1 {
+  font-weight: bold;
+
+}
+#meet-our-team>p {
+  width: 50%;
+  text-align: center;
+  margin-bottom: 70px;
+}
+#warrenty {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#warrenty p {
+  font-size: 18px;
+  font-weight: bold;
+  width: 250px;
+}
+#last-part {
+  text-align: center;
+  width: 100%;
+}
+#last-part>h3 {
+  margin: 0;
+}
+#last-part>p {
+  margin: 10px 0px 0px 5px;
+}
+#services img {
+  margin: 40px 10px;
+}
+#services p {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+#Subscribe {
+  background-color: rgba(202, 156, 146, 0.62);
+  width: 1321px;
+  height: 291.05px;
+  border-radius: 0px 105px 105px 105px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+}
+#h3-1 {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0px;
+}
+#h3-2 {
+  margin: 10px 0px;
+  font-size: 25px;
+}
+#sub-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 642px;
+  height: 110px;
+  background-color: #fff;
+}
+#sub-input input[type=text] {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: 0px;
+  padding: 0px;
+  margin-left: 20px;
+}
+#sub-input input[type=text]::placeholder{
+  font-size: 18px;
+
+}
+#sub-input input[type=button] {
+  width: 200px;
+  height: 60px;
+  margin-right: 20px;
+  background-color: #755750;
+  border: 0px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
