@@ -104,11 +104,15 @@ main {
   margin-top: 20px;
   height: 70px;
   width: 300px;
-  background-color: #250101;
+  background-color: #755750;
   border: 1px;
   color: #fff;
   font-weight: bold;
   font-size: 20px;
+}
+#intro-left>button:hover {
+  transition: .33s;
+  background-color: #634a44;
 }
 #main-2 {
   width: 90%;
@@ -148,7 +152,7 @@ main {
   justify-content: space-around;
 }
 #meet-our-team>input {
-  background-color: #250101;
+  background-color: #755750;
   height: 100px;
   width: 300px;
   color: #fff;
@@ -158,6 +162,9 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+#meet-our-team>input:hover {
+  background-color: #634a44;
 }
 
 #meet-our-team>h1 {
@@ -249,6 +256,9 @@ main {
   font-weight: bold;
   color: #fff;
 }
+#sub-input input[type=button]:hover {
+  background-color: #634a44;
+}
 /* footer */
 footer {
   text-align: center;
@@ -280,4 +290,7 @@ footer {
 }
 #copyright p {
   margin: 0;
+}
+input[type=button]:hover {
+  transition: .33s;
 }
